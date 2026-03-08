@@ -3,7 +3,7 @@
 Voxira AI is a cutting-edge web application that transcribes audio/video files into accurate text and translates them into 10+ global languages using the power of OpenAI’s Whisper model and Google Translate API. Designed with simplicity, speed, and accessibility in mind, Voxira AI helps users convert speech into multiple languages with ease.
 
 <p align="center">
-  <img src="icon.webp" width="150" alt="Voxira Logo" />
+<img src="https://media1.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3Ymx6dHFueDV0aWIyczM2dHlqaHNkZnkzNWh5czJ2c3Y3cWZsZXNpeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/nqDzOolZaPUgHAStiV/200w.webp" width="100" height="100" alt="Voxira Logo" />
 </p>
 
 ---
