@@ -8,6 +8,13 @@ Voxira AI is a cutting-edge web application that transcribes audio/video files i
 
 ---
 
+## Live Website
+
+🔗 **Portfolio Website:**  
+👉(https://voxira-ai.netlify.app/)
+
+---
+
 ## Video
 
 [▶ Voxira AI ](https://drive.google.com/file/d/1x2yVwWL6I4SGdcaQYOLvJeLBNbtR3kJT/view?usp=sharing)
