@@ -122,16 +122,19 @@ margin-bottom:10px;
 
 /* video section */
 
-.video-box{
+.video-wrapper{
 margin-top:40px;
+display:flex;
+justify-content:center;
 }
 
-iframe{
+.video-wrapper iframe{
 width:100%;
 max-width:900px;
 height:500px;
-border-radius:14px;
 border:none;
+border-radius:14px;
+box-shadow:0 20px 50px rgba(0,0,0,0.6);
 }
 
 /* footer */
@@ -199,22 +202,23 @@ Launch Voxira
 
 
 
-<section class="section">
+<section>
 
-<h2>Watch Demo</h2>
+<h2 class="section-title">Product Demo</h2>
 
-<p>See how Voxira converts speech into text and translations instantly.</p>
+<p>Watch how Voxira AI converts speech into text and translates it instantly.</p>
 
-<div class="video-box">
+<div class="video-wrapper">
 
-<!-- Replace DEMO_VIDEO_LINK with your Google Drive embed link -->
-
-<iframe src="https://drive.google.com/file/d/1LpWq5FRyYx-CX8Wo8m5hM1R84_sg2nb7/preview"></iframe>
+<iframe src="https://drive.google.com/file/d/1LpWq5FRyYx-CX8Wo8m5hM1R84_sg2nb7/preview" allow="autoplay"></iframe>
 
 </div>
 
 </section>
 
+<a class="btn" href="https://github.com/YOUR_USERNAME/Voxira-AI" target="_blank">
+View Project on GitHub
+</a>  
 
 
 <footer>
@@ -225,5 +229,6 @@ Launch Voxira
 
 </body>
 </html>
+
 
 
