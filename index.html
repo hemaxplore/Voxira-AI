@@ -123,19 +123,43 @@ margin-bottom:10px;
 /* video section */
 
 .video-wrapper{
-margin-top:40px;
-display:flex;
-justify-content:center;
+max-width:900px;
+margin:50px auto;
+position:relative;
+padding-bottom:56.25%;
+height:0;
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 20px 60px rgba(0,0,0,0.6);
 }
 
 .video-wrapper iframe{
+position:absolute;
+top:0;
+left:0;
 width:100%;
-max-width:900px;
-height:500px;
+height:100%;
 border:none;
-border-radius:14px;
-box-shadow:0 20px 50px rgba(0,0,0,0.6);
 }
+
+.github-btn{
+display:block;
+width:260px;
+margin:40px auto 0 auto;
+text-align:center;
+background:#0ea5e9;
+padding:16px;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-weight:600;
+transition:0.3s;
+}
+
+.github-btn:hover{
+background:#0284c7;
+transform:scale(1.05);
+}  
 
 /* footer */
 
@@ -201,24 +225,21 @@ Launch Voxira
 </section>
 
 
+<section class="section">
 
-<section>
-
-<h2 class="section-title">Product Demo</h2>
+<h2>Watch Demo</h2>
 
 <p>Watch how Voxira AI converts speech into text and translates it instantly.</p>
 
 <div class="video-wrapper">
-
 <iframe src="https://drive.google.com/file/d/1LpWq5FRyYx-CX8Wo8m5hM1R84_sg2nb7/preview" allow="autoplay"></iframe>
-
 </div>
 
-</section>
-
-<a class="btn" href="https://github.com/YOUR_USERNAME/Voxira-AI" target="_blank">
+<a class="github-btn" href="https://github.com/YOUR_USERNAME/Voxira-AI" target="_blank">
 View Project on GitHub
-</a>  
+</a>
+
+</section>
 
 
 <footer>
@@ -229,6 +250,7 @@ View Project on GitHub
 
 </body>
 </html>
+
 
 
 
